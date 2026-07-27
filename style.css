@@ -41,7 +41,8 @@ transition:1s;
 
 .loginBox{
 
-width:350px;
+width:500px;
+max-width:90vw;
 
 padding:40px;
 

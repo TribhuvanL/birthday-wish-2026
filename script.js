@@ -71,20 +71,8 @@ img.src=photos[Math.floor(Math.random()*photos.length)];
 
 img.className="photo";
 
-let side=Math.random()<0.5;
-
-if(side){
-
-    // Left empty space
-    img.style.left=random(2,20)+"%";
-
-}else{
-
-    // Right empty space
-    img.style.left=random(75,92)+"%";
-
-}
-
+img.style.left=random(5,80)+"%";
+img.style.top=random(5,70)+"%";
 
 const move=Math.random()<0.5?-350:350;
 

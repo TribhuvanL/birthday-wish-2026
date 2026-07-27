@@ -12,8 +12,15 @@ const photos = [
 "photos/7.jpg",
 "photos/8.jpg",
 "photos/9.jpg",
-"photos/10.jpg"
-
+"photos/10.jpg",
+"photos/11.jpg",
+"photos/12.jpg",
+"photos/13.jpg",
+"photos/14.jpg",
+"photos/15.jpg",
+"photos/16.jpg",
+"photos/17.jpg",
+"photos/18.jpg"
 ];
 
 function login(){

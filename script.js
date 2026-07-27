@@ -88,8 +88,8 @@ do {
     y = random(5,85);
 
 } while (
-    x > 30 && x < 70 &&
-    y > 25 && y < 70
+    x > 35 && x < 65 &&
+    y > 30 && y < 65
 );
 
 img.style.left = x + "%";

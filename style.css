@@ -188,7 +188,7 @@ color:#5c2332;
 
 text-shadow:0 2px 6px rgba(255,255,255,0.4);
 
-z-index:2;
+z-index:5;
 
 }
 
@@ -231,6 +231,8 @@ box-shadow:0 15px 40px rgba(0,0,0,.35);
 opacity:0;
 
 animation:photoAnim 8s linear forwards;
+
+z-index:3;
 
 }
 

@@ -1,5 +1,5 @@
 const USERNAME = "bilali";
-const PASSWORD = "madhuvan2817";
+const PASSWORD = "tridhu@143";
 
 const photos = [
 

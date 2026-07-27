@@ -95,3 +95,23 @@ function startPhotos(){
 setInterval(createPhoto,1200);
 
 }
+
+function togglePassword(){
+
+    const password=document.getElementById("password");
+
+    const icon=document.getElementById("togglePassword");
+
+    if(password.type==="password"){
+
+        password.type="text";
+        icon.textContent="🙈";
+
+    }else{
+
+        password.type="password";
+        icon.textContent="👁";
+
+    }
+
+}

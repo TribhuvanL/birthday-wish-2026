@@ -75,8 +75,27 @@ img.src=photos[Math.floor(Math.random()*photos.length)];
 
 img.className="photo";
 
-img.style.left=random(5,80)+"%";
-img.style.top=random(5,70)+"%";
+// img.style.left=random(5,80)+"%";
+// img.style.top=random(5,70)+"%";
+
+    // start
+let x;
+let y;
+
+do {
+
+    x = random(5,90);
+    y = random(5,85);
+
+} while (
+    x > 30 && x < 70 &&
+    y > 25 && y < 70
+);
+
+img.style.left = x + "%";
+img.style.top = y + "%";
+
+    // end
 
 const move=Math.random()<0.5?-350:350;
 

@@ -175,7 +175,7 @@ width:65%;
 
 padding:40px;
 
-background:rgba(120,120,120,.35);
+background:rgba(70,70,70,.30);
 
 backdrop-filter:blur(10px);
 
@@ -221,7 +221,7 @@ height:280px;
 
 object-fit:cover;
 
-border-radius:18px;
+border-radius:22px;
 
 box-shadow:0 15px 40px rgba(0,0,0,.35);
 
@@ -268,4 +268,12 @@ rotate(var(--rotate));
 
 }
 
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+input:focus{
+    box-shadow:0 0 12px rgba(92,35,50,0.25);
 }

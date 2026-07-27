@@ -28,10 +28,18 @@
         type="text"
         placeholder="Username">
 
-        <input
-        id="password"
-        type="password"
-        placeholder="Password">
+        <div class="passwordBox">
+
+    <input
+    id="password"
+    type="password"
+    placeholder="Password">
+
+    <span id="togglePassword" onclick="togglePassword()">
+        👁
+    </span>
+
+        </div>
 
         <button onclick="login()">
             Enter
